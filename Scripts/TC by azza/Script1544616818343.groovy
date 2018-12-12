@@ -15,3 +15,5 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('http://192.168.0.192:7001/IPO-BankMisr/#/')
 
+WebUI.setText(findTestObject('New Test Object'), 'azza')
+
